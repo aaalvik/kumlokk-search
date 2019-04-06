@@ -42,7 +42,7 @@ class App extends Component {
   handleSearch = e => {
     this.setState({
       searchTerm: e.target.value,
-      currentKumlokk: kumlokk[e.target.value.toLowerCase()]
+      currentKumlokk: kumlokk[e.target.value.toLowerCase().trim()]
     });
   };
 }
