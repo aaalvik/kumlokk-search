@@ -19,6 +19,7 @@ export const Title = styled(BasicParagraph)`
     font-size: 50px;
     font-weight: 500;
     margin: 20px;
+    margin-top: 40px;
     margin-bottom: 50px;
     text-align: center;
     color: #fff;

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class KumlokkViewer extends Component {
   render() {
     return (
-      <div>
+      <div style={{textAlign: "center"}} >
         {this.props.kumlokk ? (
           <img
             style={{ maxWidth: "100%", maxHeight: "500px" }}

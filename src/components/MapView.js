@@ -27,7 +27,7 @@ export default class MapView extends Component {
         style="mapbox://styles/mapbox/streets-v8"
         zoom={zoom}
         containerStyle={{
-          height: "600px",
+          height: "500px",
           width: "100%"
         }}
         center={[12.4918262, 64.1326249]}
