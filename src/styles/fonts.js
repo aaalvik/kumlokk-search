@@ -24,6 +24,10 @@ export const Title = styled(BasicParagraph)`
     text-align: center;
     color: #fff;
 
+    @media (max-width: 1300px) and (min-width: 701px) {
+        margin: 20px;
+    }
+
     @media (max-width: 700px) {
         & {
             font-size: 30px;

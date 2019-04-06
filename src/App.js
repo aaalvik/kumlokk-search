@@ -26,7 +26,6 @@ class App extends Component {
             <Title>Aasbøenes kumlokksøkeside</Title>
             <Input value={this.state.searchTerm} onChange={this.handleSearch} />
           </Header>
-          <div style={{ height: 40 }} />
           <Grid>
             <KumlokkViewer
               searchTerm={this.state.searchTerm}
@@ -69,7 +68,7 @@ const Header = styled.div`
   margin-bottom: 20px;
   @media (max-width: 700px) {
     & {
-      margin-bottom: 0px;
+      margin-bottom: 20px;
     }
   }
 `;
@@ -91,11 +90,6 @@ const ContentFrame = styled.div`
   height: 800px;
   width: 1000px;
   border-radius: 4px;
-
-@media (max-width: 1300px) and (min-width: 701px) {
-  margin-top: -10%;
-  transform: scale(0.7);
-}
 
   @media (max-width: 1000px) {
     & {
