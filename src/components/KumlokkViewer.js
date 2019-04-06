@@ -12,7 +12,7 @@ class KumlokkViewer extends Component {
             alt="/"
           />
         ) : (
-          <div style={{marginBottom: 20, marginLeft: 50, marginRight: 50, textAlign: 'center', color: '#fff', fontWeight: 500 }}>{this.props.searchTerm === "" ? "Skriv inn en by i søkefeltet eller velg en by i kartet" : `Ingen kumlukk med navn ${this.props.searchTerm}`}</div>
+          <div style={{marginBottom: 20, marginLeft: 50, marginRight: 50, textAlign: 'center', color: '#fff', fontWeight: 500 }}>{this.props.searchTerm === "" ? "Skriv inn en by i søkefeltet eller velg en by i kartet" : `Ingen kumlokk med navn ${this.props.searchTerm}`}</div>
         )}
       </div>
     );
