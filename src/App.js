@@ -92,7 +92,12 @@ const ContentFrame = styled.div`
   width: 1000px;
   border-radius: 4px;
 
-  @media (max-width: 700px) {
+@media (max-height: 1000px) {
+  margin-top: -10%;
+  transform: scale(0.7);
+}
+
+  @media (max-width: 1000px) {
     & {
       height: 100%;
       width: 100%;
