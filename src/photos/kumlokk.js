@@ -191,4 +191,33 @@ export const kumlokk = {
         position: [58.8507993,5.7218525],
         url: 'http://kumlokk.no/wp-content/uploads/2018/10/nr.-12-Sandnes-nytt.jpg'
     },
+    ålesund: {
+        position: [62.4719109,6.1462084],
+        url: 'https://syklendepensjonister.files.wordpress.com/2017/08/img_7909.jpg'
+    },
+    risør: {
+        position: [58.7214987,9.2105676],
+        url: 'http://media3.origo.no/-/cache/image/546111_h0ac5d52590493292ae55_1024x1024.jpeg'
+    },
+    lillesand: {
+        position: [58.2467638,8.3681585],
+        url: 'http://3.bp.blogspot.com/_306gydr5Vmc/ShrzjI0CGDI/AAAAAAAAGGg/T3OcFjU_stQ/s400/lillesand2k.jpg'
+    },
+    namsos: {
+        position: [64.4674122,11.472386],
+        url: 'https://scontent-atl3-1.cdninstagram.com/vp/74f6d5845c387ddb9ca4668f685b3715/5D24FCA4/t51.2885-15/e35/37628981_2062917637292306_694715710361829376_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com'
+    },
+    lyngdal: {
+        position: [58.1382658,7.0673941],
+        url: 'https://www.lyngdal.kommune.no/globalassets/bilder-og-dokumenter/aktuelt/dsckulokk7311b.jpg'
+    },
+    søgne: {
+        position: [58.0913515,7.7834937],
+        url: 'https://www.sogne.kommune.no/contentassets/649077fb598a4cfd8635027a8caaa220/kumlokk_sogne.jpg'
+    },
+    sandefjord: {
+        position: [59.129793,10.2176331],
+        url: 'https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_480_319_l_f/0000/sabl/2016/4/1/13/02NYHkumlokk3_01-01-DSC_017.jpg?chk=1AF29C'
+    },
+
 };
