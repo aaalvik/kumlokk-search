@@ -6,7 +6,7 @@ const Map = ReactMapboxGl({
   accessToken:
     "pk.eyJ1Ijoiam9uYXNtdzk0IiwiYSI6ImNqZWw1Nnp2MTBvdHYyd284dHkxcHdsYmEifQ.GkRndh_FQG7xNy_MyC_8cQ"
 });
-const zoom = [3.8];
+const zoom = [5.5];
 
 export default class MapView extends Component {
     shouldComponentUpdate() {
@@ -27,10 +27,11 @@ export default class MapView extends Component {
         style="mapbox://styles/mapbox/streets-v8"
         zoom={zoom}
         containerStyle={{
-          height: "500px",
+          height: "400px",
           width: "100%"
         }}
-        center={[12.4918262, 64.1326249]}
+        // center={[12.4918262, 64.1326249]}
+        center={[7.632443, 59.489045]}
       >
         <Layer type="symbol" id="marker" layout={{ "icon-image": "marker-15" }}>
           {markers}

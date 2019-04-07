@@ -19,19 +19,15 @@ export const Title = styled(BasicParagraph)`
     font-size: 50px;
     font-weight: 500;
     margin: 20px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: center;
     color: #fff;
 
-    @media (max-width: 1300px) and (min-width: 701px) {
-        margin: 20px;
-    }
-
     @media (max-width: 700px) {
         & {
-            font-size: 30px;
-            margin-bottom: 26px;
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: 0;
         }
     }
 `;

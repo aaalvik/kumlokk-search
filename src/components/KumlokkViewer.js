@@ -7,7 +7,7 @@ class KumlokkViewer extends Component {
       <div style={{textAlign: "center"}} >
         {this.props.kumlokk ? (
           <img
-            style={{ maxWidth: "100%", maxHeight: "500px" }}
+            style={{ maxWidth: "100%", maxHeight: "400px" }}
             src={this.props.kumlokk.url}
             alt="/"
           />

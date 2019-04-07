@@ -65,7 +65,8 @@ const Header = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
   @media (max-width: 700px) {
     & {
       margin-bottom: 20px;
@@ -99,8 +100,8 @@ const ContentFrame = styled.div`
   }
 `;
 
+// height: 100vh;
 const AppFrame = styled.div`
-  height: 100vh;
   width: 100vw;
 
   display: flex;
